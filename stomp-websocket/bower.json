@@ -1,0 +1,22 @@
+{
+  "name": "stomp-websocket",
+  "homepage": "https://github.com/gabrielruiu/learn",
+  "authors": [
+    "Gabriel Ruiu <gabriel.ruiu@mail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sockjs": "0.3.4",
+    "stomp-websocket": "^2.3.4"
+  }
+}
