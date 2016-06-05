@@ -5,3 +5,4 @@
 03. [Consuming a RESTful Web Service with rest.js](https://github.com/gabrielruiu/learn/tree/master/consume-with-restjs) :star:
 04. [Using WebSocket to build an interactive web application](https://github.com/gabrielruiu/learn/tree/master/stomp-websocket) :star:
 05. [Spring Boot with Docker](https://github.com/gabrielruiu/learn/tree/master/spring-boot-docker) :star: :star: :star: :star:
+06. [Centralized Configuration](https://github.com/gabrielruiu/learn/tree/master/spring-centralized-configuration) :star: :star: :star: :star:
