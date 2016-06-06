@@ -6,3 +6,4 @@
 04. [Using WebSocket to build an interactive web application](https://github.com/gabrielruiu/learn/tree/master/stomp-websocket) :star:
 05. [Spring Boot with Docker](https://github.com/gabrielruiu/learn/tree/master/spring-boot-docker) :star: :star: :star: :star:
 06. [Centralized Configuration](https://github.com/gabrielruiu/learn/tree/master/spring-centralized-configuration) :star: :star: :star: :star:
+07. [Routing and Filtering](https://github.com/gabrielruiu/learn/tree/master/spring-netflix-zuul) :star: :star: :star:
