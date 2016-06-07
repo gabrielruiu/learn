@@ -1,0 +1,7 @@
+How to extend microservices to register themselves to a central registry.
+This gives the advantage of enabling client-side load balancing and service providers from consumers
+without the need for DNS.
+
+TODO: I've dockerized both the client and server, but when I run the client, it's trying to connect to the registry on localhost:8761, but it's running in a different container, so it's failing. Need to somehow provide the clients with the address to the registry.
+
+Link: https://spring.io/guides/gs/service-registration-and-discovery/
