@@ -2,6 +2,8 @@ package learn.gabrielruiu.discovery.tutorial.patient.repository.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import java.util.Date;
 import java.util.Objects;
 
@@ -21,6 +23,7 @@ public class Patient extends BaseEntity {
     private Date birthDate;
 
     @Column(name = "gender", nullable = false)
+    @Enumerated(EnumType.STRING)
     private Gender gender;
 
     public String getFirstName() {
