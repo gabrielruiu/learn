@@ -18,7 +18,7 @@ public class BaseEntity {
     @Column(name = "created_date", insertable = false, updatable = false)
     private Date createdDate;
 
-    @Column(name = "created_date")
+    @Column(name = "last_changed_date")
     private Date lastChangedDate;
 
     public Long getId() {

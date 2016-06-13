@@ -3,6 +3,7 @@ package learn.gabrielruiu.discovery.tutorial.patient.repository.configuration;
 import com.mysql.jdbc.Driver;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
@@ -23,6 +24,9 @@ public class DatabaseDriverConfiguration {
     @Autowired
     Environment env;
 
+    @Autowired
+    DataSourceProperties dataSourceProperties;
+
     @Bean
     @Profile("in-memory")
     DataSource inMemoryDataSource() {
@@ -37,10 +41,10 @@ public class DatabaseDriverConfiguration {
     @Primary
     DataSource mysqlDataSource() throws SQLException {
         BasicDataSource basicDataSource = new BasicDataSource();
-        basicDataSource.setUrl(env.getRequiredProperty("db.url"));
-        basicDataSource.setUsername(env.getRequiredProperty("db.username"));
-        basicDataSource.setPassword(env.getRequiredProperty("db.password"));
-        basicDataSource.setDriver(new Driver());
+        basicDataSource.setUrl(dataSourceProperties.getUrl());
+        basicDataSource.setUsername(dataSourceProperties.getUsername());
+        basicDataSource.setPassword(dataSourceProperties.getPassword());
+        basicDataSource.setDriverClassName(dataSourceProperties.getDriverClassName());
         return basicDataSource;
     }
 }
