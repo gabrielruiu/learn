@@ -10,6 +10,7 @@
 06. [Centralized Configuration](https://github.com/gabrielruiu/learn/tree/master/spring-centralized-configuration) :star: :star: :star: :star:
 07. [Routing and Filtering](https://github.com/gabrielruiu/learn/tree/master/spring-netflix-zuul) :star: :star: :star:
 08. [Service Registration and Discovery](https://github.com/gabrielruiu/learn/tree/master/spring-eureka) :star: :star: :star:
+09. [Handling forms](https://github.com/gabrielruiu/learn/tree/master/spring-form-handling) :star: :star:
 
 
 # Made by me
