@@ -11,6 +11,7 @@
 07. [Routing and Filtering](https://github.com/gabrielruiu/learn/tree/master/spring-netflix-zuul) :star: :star: :star:
 08. [Service Registration and Discovery](https://github.com/gabrielruiu/learn/tree/master/spring-eureka) :star: :star: :star:
 09. [Handling forms](https://github.com/gabrielruiu/learn/tree/master/spring-form-handling) :star: :star:
+10. [Messaging with RabbitMQ](https://github.com/gabrielruiu/learn/tree/master/spring-boot-messaging-rabbitmq) :star: :star: :star: :star:
 
 
 # Made by me
